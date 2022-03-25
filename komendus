@@ -1,0 +1,49 @@
+Komendy Linux 
+
+apt-get update – instaluje aktualizacje systemu 
+
+apt-get upgrade –y – instaluje aktualizacje wszystkich aplikacjis 
+
+ 
+
+reboot – restartuje system 
+
+ip a – pokazuje ip i dane sieciowe maszyny 
+
+ping wp.pl - sprawdza łączność z serwerem wp.pl 
+
+exit - wychodzi z systemu 
+
+shutdown now – natychmiastowo wyłącza system 
+
+apt-get dist-upgrade –y – instaluje aktualizację dystrybucji systemu 
+
+passwd [użytkownik] – zmienia hasło 
+
+useradd [użytkownik]  – dodaje użytkownika 
+
+logout – wylogowuje się z systemu 
+
+cd /home - przechodzi do folderu domowego 
+
+cd.. - przechodzi do poprzedniego folderu 
+
+ls – wypisuje zawartość katalogu, w którym jesteśmy, dodatkowe parametry: a – pokazuje ukryte pliki, B – nie pokazuje plików kończących się ~, h – pokazuje wielkość pliku w bytach, s- pokazuje wielkość pliku 
+
+deluser [użytkownik] – usuwa użytkownika 
+
+mkdir [nazwa katalogu] – tworzy katalog 
+
+usermod [użytkownik] –aG sudo – dodaje “uztkownik” do sudoersów 
+
+systemctl status [nazwa usługi] – sprawdza status aplikacji 
+
+apt install [nazwa usługi] - instaluję usługę, np. vsftpd, figlet 
+
+visudo – edytuje plik z sudoersami 
+
+figlet – pokazuje w dużych literach wpisane słowa, dodatkowe parametry: f “nazwa czcionki” -d ./[lokacja folderu z czcionką] - używa innej czcionki dla figlet, lolcat – pokazuje wielokolorowy tekst  
+
+clear - czyści konsolę 
+
+history – pokazuje historię komend użytych na koncie 
